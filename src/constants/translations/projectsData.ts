@@ -56,7 +56,7 @@ const projectsBaseData = [
     relatedArticles: [
       {
         title: 'Evaluation of a Multiprotocol Agnostic Distributed System for Natural Disasters',
-        pdfUrl: '/articles/MultiprotocolAgnosticDistributedSystem.pdf'
+        pdfUrl: '/articles/Evaluation of a Multiprotocol Agnostic Distributed System for Natural Disasters.pdf'
       }
     ],
     image: null
@@ -103,6 +103,10 @@ const projectsBaseData = [
       {
         title: 'Wireless Sensor Network Research',
         pdfUrl: '/articles/WSN-SA-paper.pdf'
+      },
+      {
+        title: 'Energy Budget and Time–to–Failure Analysis',
+        pdfUrl: '/articles/Energy Budget and Time–to–Failure Analysis.pdf'
       }
     ],
     image: null
