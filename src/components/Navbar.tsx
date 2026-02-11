@@ -13,7 +13,7 @@ import {
   ListItemButton,
   ListItemText
 } from '@mui/material';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router';
 import { HOME_PATH } from '../routes';
 import { Menu, X } from '../utils/icons';
 import { NAVIGATION_LINKS } from '../constants/translations';

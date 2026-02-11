@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router';
 
 interface AnimatedPageProps {
   children: ReactNode;

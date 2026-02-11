@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
+import { BrowserRouter as Router, useRoutes } from 'react-router';
 import { HelmetProvider } from 'react-helmet-async';
 import theme from './theme';
 import Navbar from './components/Navbar';

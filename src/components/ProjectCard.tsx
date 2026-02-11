@@ -1,6 +1,6 @@
 import { Box, Card, CardContent, Typography, Chip, Button } from '@mui/material';
 import { ArrowRight, Mountain, Radio, Flame } from '../utils/icons';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { GetProjectDetailPath } from '../routes';
 import { PROJECT_IDS } from '../constants/translations/projectsData';
 

@@ -1,5 +1,5 @@
 import { lazy, ReactNode } from 'react';
-import { RouteObject as ReactRouteObject } from 'react-router-dom';
+import { RouteObject as ReactRouteObject } from 'react-router';
 import { RouteObject } from './types';
 import AnimatedPage from '../components/AnimatedPage';
 import { getProjectSanitizedId } from '../constants/translations/projectsData';

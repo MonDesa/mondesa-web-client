@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
-import { useParams, Navigate, useLocation } from 'react-router-dom';
-import { Link as RouterLink } from 'react-router-dom';
+import { useParams, Navigate, useLocation } from 'react-router';
+import { Link as RouterLink } from 'react-router';
 import { Box, Button, Container, Typography, Grid, Chip, Paper, Link, Divider } from '@mui/material';
 import { ArrowLeft, Github, Globe, Download, FileText, Image, Mountain, Radio, Flame } from '../utils/icons';
 import { PageHelmet } from '../components/PageHelmet';

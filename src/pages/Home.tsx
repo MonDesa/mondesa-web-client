@@ -1,6 +1,6 @@
 import { Box, Button, Container, Typography, useTheme, useMediaQuery } from '@mui/material';
 import { ArrowRight, Mountain, Radio, Waves, Signal } from '../utils/icons';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { PageHelmet } from '../components/PageHelmet';
 import { MONDESA_PATH, PROJECTS_PATH } from '../routes';
 import { UseTranslation } from '../contexts/LanguageContext';

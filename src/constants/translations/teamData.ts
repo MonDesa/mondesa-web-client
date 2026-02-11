@@ -71,7 +71,7 @@ const teamBaseData = [
       { name: 'IoT', icon: 'wifi' },
       { name: 'Firmware', icon: 'code' }
     ],
-    avatar: undefined,
+    avatar: '/team/pedro-francoso.jpg',
     links: {}
   },
   {
