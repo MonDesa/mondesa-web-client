@@ -12,15 +12,11 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 const getBrowserLanguage = (): Language => {
-    if (typeof window === 'undefined') return 'en';
-
     const browserLang = navigator.language.split('-')[0];
     return browserLang === 'pt' ? 'pt' : 'en';
 };
 
 const getInitialLanguage = (): Language => {
-    if (typeof window === 'undefined') return 'en';
-
     const stored = localStorage.getItem('mondesa-language') as Language;
     return stored || getBrowserLanguage();
 };
@@ -30,19 +26,25 @@ interface LanguageProviderProps {
 }
 
 export function LanguageProvider({ children }: LanguageProviderProps) {
-    const [language, setLanguageState] = useState<Language>(getInitialLanguage);
+    // Initialize with 'en' to match pre-rendered HTML and avoid hydration mismatch
+    const [language, setLanguageState] = useState<Language>('en');
 
     const setLanguage = (lang: Language) => {
         setLanguageState(lang);
-        localStorage.setItem('mondesa-language', lang);
+        if (typeof window !== 'undefined') {
+            localStorage.setItem('mondesa-language', lang);
+        }
     };
 
     const t = (key: string): string => {
         return getTranslation(key, language);
     };
 
+    // After hydration, update to user's preferred language
     useEffect(() => {
-        setLanguageState(getInitialLanguage());
+        if (typeof window !== 'undefined') {
+            setLanguageState(getInitialLanguage());
+        }
     }, []);
 
     return (
