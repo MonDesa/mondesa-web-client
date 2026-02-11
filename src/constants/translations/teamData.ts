@@ -31,30 +31,60 @@ const teamBaseData = [
     }
   },
   {
-    id: 'saulo',
-    name: 'Saulo Neves Mattos',
+    id: 'marco',
+    name: 'Marco Spohn',
     skills: [
-      { name: 'Machine Learning', icon: 'brain' },
-      { name: 'Instrumentation', icon: 'gauge' },
-      { name: 'Time Series Analysis', icon: 'trending-up' }
+      { name: 'Computer Networks', icon: 'wifi' },
+      { name: 'IoT', icon: 'cpu' },
+      { name: 'Research', icon: 'brain' }
     ],
-    avatar: '/team/saulo-matos.jpg',
-    links: {
-      linkedin: 'https://www.linkedin.com/in/saulo-neves-matos-0046a114b/'
-    }
+    avatar: '/team/marcospohn.png',
+    links: {}
   },
   {
-    id: 'arthur',
-    name: 'Arthur Rocha',
+    id: 'agnelo',
+    name: 'Agnelo Rocha',
     skills: [
-      { name: 'Deep Learning', icon: 'brain' },
-      { name: 'Computer Vision', icon: 'camera' },
-      { name: 'Training Techniques', icon: 'activity' }
+      { name: 'Wireless Sensing', icon: 'radio' },
+      { name: 'Spectroscopy', icon: 'activity' },
+      { name: 'Sensor Networks', icon: 'wifi' }
     ],
-    avatar: '/team/arthur-rocha.jpg',
+    avatar: '/team/agnelorocha.jpg',
+    links: {}
+  },
+  {
+    id: 'joueyama',
+    name: 'Jó Ueyama',
+    skills: [
+      { name: 'IoT', icon: 'cpu' },
+      { name: 'Security', icon: 'code' },
+      { name: 'Blockchain', icon: 'brain' }
+    ],
+    avatar: '/team/joueyama.png',
+    links: {}
+  },
+  {
+    id: 'pedrofrancoso',
+    name: 'Pedro Françoso',
+    skills: [
+      { name: 'Embedded Systems', icon: 'cpu' },
+      { name: 'IoT', icon: 'wifi' },
+      { name: 'Firmware', icon: 'code' }
+    ],
+    avatar: undefined,
+    links: {}
+  },
+  {
+    id: 'giovane',
+    name: 'Giovane Moretto',
+    skills: [
+      { name: 'Electronics', icon: 'cpu' },
+      { name: 'PCB Design', icon: 'activity' },
+      { name: 'Embedded Systems', icon: 'code' },
+    ],
+    avatar: '/team/giovane-moretto.jpg',
     links: {
-      linkedin: 'https://www.linkedin.com/in/arthur-lima-b42334168/',
-      github: 'https://github.com/tucarthur'
+      linkedin: 'https://www.linkedin.com/in/giovane-moretto/'
     }
   },
   {
@@ -72,16 +102,17 @@ const teamBaseData = [
     }
   },
   {
-    id: 'giovane',
-    name: 'Giovane Moretto',
+    id: 'arthur',
+    name: 'Arthur Rocha',
     skills: [
-      { name: 'Electronics', icon: 'cpu' },
-      { name: 'PCB Design', icon: 'circuit-board' },
-      { name: 'Embedded Systems', icon: 'settings' },
+      { name: 'Deep Learning', icon: 'brain' },
+      { name: 'Computer Vision', icon: 'camera' },
+      { name: 'Training Techniques', icon: 'activity' }
     ],
-    avatar: '/team/giovane-moretto.jpg',
+    avatar: '/team/arthur-rocha.jpg',
     links: {
-      linkedin: 'https://www.linkedin.com/in/giovane-moretto/'
+      linkedin: 'https://www.linkedin.com/in/arthur-lima-b42334168/',
+      github: 'https://github.com/tucarthur'
     }
   }
 ];

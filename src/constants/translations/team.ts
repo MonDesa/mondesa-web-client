@@ -25,33 +25,64 @@ export const teamTranslations: Translations = {
   },
 
   'team.samuel.role': {
-    pt: 'Co-fundador e Diretor Executivo',
-    en: 'Co-founder & Chief Executive Officer'
+    pt: 'Fundador',
+    en: 'Founder'
   },
   'team.samuel.bio.1': {
     pt: 'Profissional com experiência em desenvolvimento de software, automação de infraestrutura e sistemas distribuídos. Especialista em arquitetura de microsserviços, Kubernetes e DevOps, com expertise em Go, TypeScript, Terraform e plataformas de nuvem.',
     en: 'Professional with experience in software development, infrastructure automation, and distributed systems. Specialist in microservices architecture, Kubernetes, and DevOps, with expertise in Go, TypeScript, Terraform, and cloud platforms.'
   },
   'team.samuel.bio.2': {
-    pt: 'Como co-fundador da MonDesa, estou trabalhando para revolucionar como abordamos a prevenção e monitoramento de desastres, aproveitando tecnologia IoT de ponta e arquitetura de software robusta para criar comunidades mais resilientes.',
-    en: 'As co-founder of MonDesa, I\'m working to revolutionize how we approach disaster prevention and monitoring, leveraging cutting-edge IoT technology and robust software architecture to create more resilient communities.'
+    pt: 'Como fundador da MonDesa, estou trabalhando para revolucionar como abordamos a prevenção e monitoramento de desastres, aproveitando tecnologia IoT de ponta e arquitetura de software robusta para criar comunidades mais resilientes.',
+    en: 'As founder of MonDesa, I\'m working to revolutionize how we approach disaster prevention and monitoring, leveraging cutting-edge IoT technology and robust software architecture to create more resilient communities.'
   },
 
-  'team.saulo.role': {
-    pt: 'Co-fundador e Diretor Executivo de Pesquisa',
-    en: 'Co-founder & Chief Research Officer'
+  'team.marco.role': {
+    pt: 'Orientador',
+    en: 'Counselor'
   },
-  'team.saulo.bio.1': {
-    pt: 'Pesquisador com sólida experiência em instrumentação, automação e aprendizado de máquina, com foco na aplicação dessas tecnologias na indústria de mineração. Atualmente trabalho como pesquisador na Vale, onde desenvolvo sistemas inteligentes para avaliação de processos de mineração.',
-    en: 'Researcher with solid experience in instrumentation, automation, and machine learning, focusing on applying these technologies to the mining industry. Currently working as a researcher at Vale, where I develop intelligent systems for evaluating mining processes.'
+  'team.marco.bio.1': {
+    pt: 'Professor Titular de Ciência da Computação na Universidade Federal da Fronteira Sul (UFFS), com pesquisa em redes de computadores e Internet das Coisas. Doutor em Ciência da Computação pela University of California Santa Cruz (UCSC), mestre e bacharel pela UFRGS.',
+    en: 'Full Professor of Computer Science at the Federal University of Fronteira Sul (UFFS), researching computer networks and the Internet of Things. Ph.D. in Computer Science from the University of California Santa Cruz (UCSC), M.Sc. and B.Sc. from UFRGS.'
   },
-  'team.saulo.bio.2': {
-    pt: 'Minhas atividades incluem o desenvolvimento de sistemas de instrumentação usando sensores LiDAR e IMU, criação de modelos de aprendizado de máquina para tarefas de classificação, regressão e clusterização, bem como detecção de anomalias e análise de séries temporais.',
-    en: 'My activities include developing instrumentation systems using LiDAR and IMU sensors, creating machine learning models for classification, regression, and clustering tasks, as well as anomaly detection and time series analysis.'
+
+  'team.agnelo.role': {
+    pt: 'Orientador',
+    en: 'Counselor'
   },
-  'team.saulo.bio.3': {
-    pt: 'Possuo doutorado em andamento em Ciência da Computação pela USP e mestrado em Engenharia Mecatrônica pela UFOP. Como co-fundador da MonDesa, combino minha experiência em pesquisa e desenvolvimento de sistemas inteligentes para criar soluções inovadoras de monitoramento de desastres.',
-    en: 'I hold an ongoing Ph.D. in Computer Science from USP and a master\'s degree in Mechatronics Engineering from UFOP. As co-founder of MonDesa, I combine my experience in research and intelligent systems development to create innovative disaster monitoring solutions.'
+  'team.agnelo.bio.1': {
+    pt: 'Doutor em Engenharia Elétrica pela University of Southern California (2015), mestre pela University of Nebraska-Lincoln e bacharel pela UFC. Pesquisa em sensoriamento e comunicação sem fio em meios com perdas, com foco em redes subterrâneas por indução magnética (MI-WUSNs), tecnologia Wake-up on Radio e espectroscopia de reflectância NIR.',
+    en: 'Ph.D. in Electrical Engineering from the University of Southern California (2015), M.Sc. from the University of Nebraska-Lincoln, and B.Sc. from UFC. Researches sensing and wireless communication in lossy materials, focusing on Magnetic Induction-based Underground Sensor Networks (MI-WUSNs), Wake-up on Radio technology, and NIR reflectance spectroscopy.'
+  },
+  'team.agnelo.bio.2': {
+    pt: 'Projetou o primeiro testbed MI-WUSN sub-MHz indoor documentado na literatura científica. Suas descobertas têm aplicações em irrigação de precisão, comunicação sob escombros em desastres, detecção de vazamentos em dutos, monitoramento de infraestrutura e instrumentação médica remota de baixo custo.',
+    en: 'Designed the first indoor sub-MHz MI-WUSN testbed reported in scientific literature. His findings have applications in precision irrigation, under-debris communication for disasters, pipeline leak detection, infrastructure monitoring, and low-cost remote medical instrumentation.'
+  },
+
+  'team.joueyama.role': {
+    pt: 'Orientador',
+    en: 'Counselor'
+  },
+  'team.joueyama.bio.1': {
+    pt: 'Professor Titular do ICMC/USP e membro da Coordenação Adjunta da Pesquisa para Inovação (CAD-PPI) na FAPESP. Doutor em Ciência da Computação pela Universidade de Lancaster (Inglaterra, 2006), com pós-doutorado na Universidade de Kent e pesquisa visitante na University of Southern California.',
+    en: 'Full Professor at ICMC/USP and member of the Research for Innovation coordination (CAD-PPI) at FAPESP. Ph.D. in Computer Science from Lancaster University (UK, 2006), with postdoctoral work at the University of Kent and visiting research at the University of Southern California.'
+  },
+  'team.joueyama.bio.2': {
+    pt: 'Possui seis patentes, cerca de 80 artigos em periódicos e 100 em eventos. Sua pesquisa foi destaque em cinco edições da Revista Pesquisa FAPESP e em veículos como Folha de São Paulo e Época Negócios. Seus principais interesses incluem Internet das Coisas, Segurança e Blockchain.',
+    en: 'Holds six patents, approximately 80 journal articles, and 100 conference papers. His research has been featured in five issues of Revista Pesquisa FAPESP and in media outlets such as Folha de São Paulo and Época Negócios. Main research interests include Internet of Things, Security, and Blockchain.'
+  },
+
+  'team.pedrofrancoso.role': {
+    pt: 'Mestrando e Engenheiro de Sistemas Embarcados',
+    en: 'Master\'s Student & Embedded Systems Engineer'
+  },
+  'team.pedrofrancoso.bio.1': {
+    pt: 'Engenheiro de computação com experiência em sistemas embarcados, arquiteturas distribuídas e integração hardware-software. Atua no desenvolvimento de plataforma de prevenção e monitoramento de desastres com IoT, desde firmware até comunicação entre dispositivos.',
+    en: 'Computer engineer with experience in embedded systems, distributed architectures, and hardware-software integration. Works on developing a disaster prevention and monitoring platform with IoT, from firmware to device-to-device communication.'
+  },
+  'team.pedrofrancoso.bio.2': {
+    pt: 'Seu foco é contribuir para o sistema embarcado como um todo, garantindo que a informação chegue de forma segura, precisa e em tempo real através de uma arquitetura de software robusta e escalável.',
+    en: 'His focus is contributing to the embedded system as a whole, ensuring information arrives securely, accurately, and in real time through a robust and scalable software architecture.'
   },
 
   'team.giovane.role': {
@@ -59,16 +90,12 @@ export const teamTranslations: Translations = {
     en: 'Electronics Technician'
   },
   'team.giovane.bio.1': {
-    pt: 'Estudante de Engenharia Elétrica e Eletrônica na USP com formação técnica em Eletrônica pelo CTI UNESP. Na MonDesa, sou responsável pelo gerenciamento de circuitos eletrônicos, realização de testes e diagnósticos usando ferramentas como multímetros e osciloscópios.',
-    en: 'Electrical and Electronics Engineering student at USP with technical education in Electronics from CTI UNESP. At MonDesa, I\'m responsible for managing electronic circuits, performing tests and diagnostics using tools such as multimeters and oscilloscopes.'
+    pt: 'Estudante de Engenharia Elétrica e Eletrônica na USP com formação técnica em Eletrônica pelo CTI UNESP. Na MonDesa, gerencia circuitos eletrônicos, realiza testes e diagnósticos, e programa microcontroladores como Arduino e ESP32.',
+    en: 'Electrical and Electronics Engineering student at USP with technical education in Electronics from CTI UNESP. At MonDesa, manages electronic circuits, performs tests and diagnostics, and programs microcontrollers such as Arduino and ESP32.'
   },
   'team.giovane.bio.2': {
-    pt: 'Meu trabalho envolve operação e programação de microcontroladores como Arduino e ESP32, soldagem de componentes em PCBs, e aplicação de rotinas de manutenção preventiva e corretiva para garantir a confiabilidade dos sistemas desenvolvidos.',
-    en: 'My work involves operating and programming microcontrollers such as Arduino and ESP32, soldering components on PCBs, and applying preventive and corrective maintenance routines to ensure the reliability of developed systems.'
-  },
-  'team.giovane.bio.3': {
-    pt: 'Atuei como Chefe de Eletrônica da equipe EESC USP Baja SAE, liderando o design de PCBs, programação e integração de sistemas com microcontroladores ESP32, aplicando conhecimentos avançados em eletrônica embarcada e prototipagem.',
-    en: 'Served as Head of Electronics for the EESC USP Baja SAE team, leading PCB design, programming, and system integration with ESP32 microcontrollers, applying advanced knowledge in embedded electronics and prototyping.'
+    pt: 'Atuou como Chefe de Eletrônica da equipe EESC USP Baja SAE, liderando design de PCBs, programação e integração de sistemas com ESP32, aplicando conhecimentos em eletrônica embarcada e prototipagem.',
+    en: 'Served as Head of Electronics for the EESC USP Baja SAE team, leading PCB design, programming, and system integration with ESP32, applying knowledge in embedded electronics and prototyping.'
   },
 
   'team.pedro.role': {
@@ -76,12 +103,12 @@ export const teamTranslations: Translations = {
     en: 'IoT & AI Engineer'
   },
   'team.pedro.bio.1': {
-    pt: 'Como estudante apaixonado pela interseção entre IoT e IA, sou movido pela curiosidade e pelo desejo de construir sistemas inteligentes que resolvam desafios do mundo real.',
-    en: 'As a student passionate about the intersection of IoT and AI, I\'m driven by curiosity and a desire to build intelligent systems that solve real-world challenges.'
+    pt: 'Estudante apaixonado pela interseção entre IoT e IA, focado em como dispositivos conectados combinados com aprendizado de máquina podem gerar soluções mais inteligentes em monitoramento ambiental, cidades inteligentes e manutenção preditiva.',
+    en: 'Student passionate about the intersection of IoT and AI, focused on how connected devices combined with machine learning can drive smarter solutions in environmental monitoring, smart cities, and predictive maintenance.'
   },
   'team.pedro.bio.2': {
-    pt: 'Meu foco está em explorar como dispositivos conectados, quando combinados com aprendizado de máquina, podem levar a soluções mais inteligentes e responsivas—seja em monitoramento ambiental, cidades inteligentes ou manutenção preditiva. Atualmente estou mergulhando profundamente em sistemas embarcados, redes de sensores e modelos de IA, construindo projetos práticos que unem essas tecnologias. Meu objetivo é contribuir para inovações que tornem nosso mundo mais eficiente, adaptativo e resiliente.',
-    en: 'My focus lies in exploring how connected devices, when combined with machine learning, can lead to smarter, more responsive solutions—whether in environmental monitoring, smart cities, or predictive maintenance. I\'m currently diving deep into embedded systems, sensor networks, and AI models, building hands-on projects that bring these technologies together. My goal is to contribute to innovations that make our world more efficient, adaptive, and resilient.'
+    pt: 'Atualmente aprofundando-se em sistemas embarcados, redes de sensores e modelos de IA, construindo projetos práticos que unem essas tecnologias para tornar o mundo mais eficiente, adaptativo e resiliente.',
+    en: 'Currently diving deep into embedded systems, sensor networks, and AI models, building hands-on projects that bring these technologies together to make the world more efficient, adaptive, and resilient.'
   },
 
   'team.arthur.role': {
@@ -89,15 +116,11 @@ export const teamTranslations: Translations = {
     en: 'Machine Learning Engineer'
   },
   'team.arthur.bio.1': {
-    pt: 'Sou um estudante com forte interesse em aprendizado de máquina, especialmente em como treinamos e otimizamos modelos de deep learning. A maior parte do meu trabalho até agora foi em visão computacional, onde uso ferramentas como PyTorch e TensorFlow para construir sistemas que podem entender e interpretar imagens.',
-    en: 'I\'m a student with a strong interest in machine learning, especially how we train and optimize deep learning models. Most of my work so far has been in computer vision, where I use tools like PyTorch and TensorFlow to build systems that can understand and interpret images.'
+    pt: 'Estudante com forte interesse em aprendizado de máquina, especialmente em treinamento e otimização de modelos de deep learning. Foco em visão computacional com PyTorch e TensorFlow.',
+    en: 'Student with a strong interest in machine learning, especially training and optimizing deep learning models. Focus on computer vision with PyTorch and TensorFlow.'
   },
   'team.arthur.bio.2': {
-    pt: 'O que realmente me fascina é o processo—encontrar maneiras melhores de treinar modelos, ajustar performance e investigar por que certos métodos funcionam. Estou menos focado em resultados chamativos e mais interessado na mecânica por trás deles. Essa curiosidade impulsiona a maior parte dos meus projetos e aprendizado.',
-    en: 'What really fascinates me is the process—finding better ways to train models, tuning performance, and digging into why certain methods work. I\'m less focused on flashy results and more interested in the mechanics behind them. That curiosity drives most of my projects and learning.'
-  },
-  'team.arthur.bio.3': {
-    pt: 'Atualmente, estou experimentando com diferentes arquiteturas e estratégias de treinamento, visando melhorar tanto eficiência quanto precisão. A longo prazo, quero trabalhar em problemas onde o aprendizado de máquina não seja apenas impressionante—mas útil.',
-    en: 'Right now, I\'m experimenting with different architectures and training strategies, aiming to improve both efficiency and accuracy. Long-term, I want to work on problems where machine learning isn\'t just impressive—it\'s useful.'
+    pt: 'Experimenta com diferentes arquiteturas e estratégias de treinamento para melhorar eficiência e precisão, buscando trabalhar em problemas onde o aprendizado de máquina seja não apenas impressionante, mas útil.',
+    en: 'Experiments with different architectures and training strategies to improve efficiency and accuracy, aiming to work on problems where machine learning isn\'t just impressive—it\'s useful.'
   }
 };

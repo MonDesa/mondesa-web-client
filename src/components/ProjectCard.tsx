@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, Typography, Chip, Button } from '@mui/material';
-import { ArrowRight, Mountain, Radio } from '../utils/icons';
+import { ArrowRight, Mountain, Radio, Flame } from '../utils/icons';
 import { Link } from 'react-router-dom';
 import { GetProjectDetailPath } from '../routes';
 import { PROJECT_IDS } from '../constants/translations/projectsData';
@@ -24,6 +24,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             if (project.id === PROJECT_IDS.ENEMETER) {
                 return <Radio size={48} color={project.color} strokeWidth={1.5} />;
             }
+            if (project.id === PROJECT_IDS.FIRE_RISK_PREDICTOR) {
+                return <Flame size={48} color={project.color} strokeWidth={1.5} />;
+            }
         }
         return null;
     };
@@ -34,6 +37,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         }
         if (project.id === PROJECT_IDS.ENEMETER || project.id === PROJECT_IDS.E_NOE) {
             return <Radio size={20} />;
+        }
+        if (project.id === PROJECT_IDS.FIRE_RISK_PREDICTOR) {
+            return <Flame size={20} />;
         }
         return null;
     };

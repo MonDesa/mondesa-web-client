@@ -4,12 +4,14 @@ export const PROJECT_IDS = {
   LANDSLIDE_MONITORING: 1,
   ENEMETER: 2,
   E_NOE: 3,
+  FIRE_RISK_PREDICTOR: 4,
 } as const;
 
 export const PROJECT_TRANSLATION_KEYS = {
   [PROJECT_IDS.LANDSLIDE_MONITORING]: 'landslide',
   [PROJECT_IDS.ENEMETER]: 'enemeter',
   [PROJECT_IDS.E_NOE]: 'enoe',
+  [PROJECT_IDS.FIRE_RISK_PREDICTOR]: 'fireRiskPredictor',
 } as const;
 
 export interface ProjectData {
@@ -198,6 +200,30 @@ const projectsBaseData = [
       }
     ],
     image: '/projects/enoe.jpg'
+  },
+  {
+    id: PROJECT_IDS.FIRE_RISK_PREDICTOR,
+    tech: ['Machine Learning', 'FastAPI', 'React', 'XGBoost', 'Real-time Prediction'],
+    color: '#D4A373',
+    github: [
+      {
+        title: 'Fire Risk Predictor',
+        url: 'https://github.com/MonDesa/fire-risk-predictor'
+      }
+    ],
+    websites: [
+      {
+        title: 'Fire Risk Predictor App',
+        url: 'https://frp.mondesa.org'
+      }
+    ],
+    relatedArticles: [
+      {
+        title: 'Fire Risk Predictor Report',
+        pdfUrl: '/articles/Fire Risk Predictor Report.pdf'
+      }
+    ],
+    image: null
   }
 ];
 

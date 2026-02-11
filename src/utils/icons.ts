@@ -24,5 +24,6 @@ export {
   Brain,
   Camera,
   Activity,
-  Play
+  Play,
+  Flame
 } from 'lucide-react';

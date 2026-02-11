@@ -141,5 +141,38 @@ export const projectsTranslations: Translations = {
   'projects.enoe.features.7': {
     pt: 'API REST escalável e sistema de alertas em tempo real baseado em eventos',
     en: 'Scalable REST API and real-time event-driven alert system'
+  },
+
+  'projects.fireRiskPredictor.title': {
+    pt: 'Preditor de Risco de Incêndio',
+    en: 'Fire Risk Predictor'
+  },
+  'projects.fireRiskPredictor.description': {
+    pt: 'Sistema baseado em machine learning para predição de risco de incêndios florestais no Brasil usando dados ambientais e atmosféricos, com API REST e interface web interativa.',
+    en: 'Machine learning-based system for predicting wildfire risk in Brazil using environmental and atmospheric data, with REST API and interactive web interface.'
+  },
+  'projects.fireRiskPredictor.fullDescription': {
+    pt: 'O Brasil enfrenta uma crise crescente de incêndios florestais, com 278.229 focos de calor registrados apenas em 2024, o maior número em 14 anos segundo o INPE. A região amazônica foi o bioma mais afetado, com mais de 140.000 focos representando um aumento de 77% em relação a 2023.\n\nEste projeto aborda o desafio da detecção reativa de incêndios usando aprendizado de máquina para prever onde incêndios são mais prováveis de ocorrer com base em condições ambientais, permitindo ação preventiva antes que os incêndios se espalhem. O sistema utiliza dados do SISAM (Sistema de Informações de Saúde Ambiental), contendo registros de focos de calor em todo o Brasil desde 2003, com 14 variáveis ambientais e atmosféricas incluindo concentrações de gases (CO, NO₂, O₃, PM2.5, SO₂), dados meteorológicos (precipitação, temperatura, umidade, vento) e coordenadas geográficas.\n\nTrês modelos de ML foram treinados com validação cruzada K-Fold: Random Forest, MLP (Rede Neural com camadas 100x100) e XGBoost, todos com otimização de limiar para maximizar o F1 score. A arquitetura inclui um backend FastAPI para inferência do modelo e uma interface React para predições interativas, comparação de modelos e visualização de métricas.',
+    en: 'Brazil faces an increasing wildfire crisis, with 278,229 heat spots recorded in 2024 alone, the highest number in 14 years according to INPE. The Amazon region was the most affected biome, with over 140,000 spots representing a 77% increase compared to 2023.\n\nThis project addresses the challenge of reactive fire detection by using machine learning to predict where fires are most likely to occur based on environmental conditions, enabling preventive action before fires spread. The system uses data from SISAM (Sistema de Informações de Saúde Ambiental), containing heat spot records across Brazil since 2003, with 14 environmental and atmospheric variables including gas concentrations (CO, NO₂, O₃, PM2.5, SO₂), meteorological data (precipitation, temperature, humidity, wind) and geographic coordinates.\n\nThree ML models were trained with K-Fold cross validation: Random Forest, MLP (Neural Network with 100x100 layers) and XGBoost, all with threshold optimization to maximize F1 score. The architecture includes a FastAPI backend for model inference and a React frontend for interactive predictions, model comparison and metrics visualization.'
+  },
+  'projects.fireRiskPredictor.features.1': {
+    pt: 'Três modelos de ML treinados: Random Forest, MLP (Rede Neural) e XGBoost com validação cruzada K-Fold',
+    en: 'Three trained ML models: Random Forest, MLP (Neural Network) and XGBoost with K-Fold cross validation'
+  },
+  'projects.fireRiskPredictor.features.2': {
+    pt: 'API REST para predições em lote, comparação de modelos e otimização de limiar de classificação',
+    en: 'REST API for batch predictions, model comparison and classification threshold optimization'
+  },
+  'projects.fireRiskPredictor.features.3': {
+    pt: 'Interface web interativa com upload de dados, teste com dados de amostra e visualização de métricas',
+    en: 'Interactive web interface with data upload, sample data testing and metrics visualization'
+  },
+  'projects.fireRiskPredictor.features.4': {
+    pt: 'Dataset de 2.6M+ registros do SISAM com 14 variáveis ambientais e atmosféricas',
+    en: 'Dataset of 2.6M+ records from SISAM with 14 environmental and atmospheric variables'
+  },
+  'projects.fireRiskPredictor.features.5': {
+    pt: 'Matrizes de confusão, gráficos F1 score vs limiar e comparação multi-modelo em tempo real',
+    en: 'Confusion matrices, F1 score vs threshold charts and real-time multi-model comparison'
   }
 };

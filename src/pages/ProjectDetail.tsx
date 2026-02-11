@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import { useParams, Navigate, useLocation } from 'react-router-dom';
 import { Link as RouterLink } from 'react-router-dom';
 import { Box, Button, Container, Typography, Grid, Chip, Paper, Link, Divider } from '@mui/material';
-import { ArrowLeft, Github, Globe, Download, FileText, Image, Mountain, Radio } from '../utils/icons';
+import { ArrowLeft, Github, Globe, Download, FileText, Image, Mountain, Radio, Flame } from '../utils/icons';
 import { PageHelmet } from '../components/PageHelmet';
 import { PROJECTS_PATH } from '../routes';
 import { getProjectById, getTranslation, ProjectData, PROJECT_IDS, PROJECT_TRANSLATION_KEYS } from '../constants/translations';
@@ -58,6 +58,8 @@ const ProjectDetail = () => {
                     return <Radio {...iconProps} />;
                 case PROJECT_IDS.E_NOE:
                     return <Radio {...iconProps} />;
+                case PROJECT_IDS.FIRE_RISK_PREDICTOR:
+                    return <Flame {...iconProps} />;
                 default:
                     return <Image {...iconProps} />;
             }
