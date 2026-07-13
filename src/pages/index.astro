@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AppRoot from '../react/AppRoot';
+import { PUBLIC_ROUTES } from '../react/routes';
+---
+
+<Layout
+  title="MonDesa — Smart monitoring for a safer tomorrow"
+  description={PUBLIC_ROUTES.HOME.description}
+>
+  <AppRoot page="home" client:load />
+</Layout>

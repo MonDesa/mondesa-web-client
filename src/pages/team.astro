@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AppRoot from '../react/AppRoot';
+import { PUBLIC_ROUTES } from '../react/routes';
+---
+
+<Layout title="Team | MonDesa" description={PUBLIC_ROUTES.TEAM.description}>
+  <AppRoot page="team" client:load />
+</Layout>

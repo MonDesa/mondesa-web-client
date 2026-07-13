@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AppRoot from '../../react/AppRoot';
+import {
+  PROJECT_IDS,
+  getProjectSanitizedId,
+  getProjectById,
+  getTranslation,
+} from '../../react/constants/translations';
+
+export function getStaticPaths() {
+  return Object.values(PROJECT_IDS).map((id) => {
+    const slug = getProjectSanitizedId(id as number)!;
+    const project = getProjectById(slug, 'en', getTranslation);
+    return {
+      params: { slug },
+      props: {
+        slug,
+        title: `${project?.title ?? 'Project'} | MonDesa`,
+        description: project?.description ?? '',
+      },
+    };
+  });
+}
+
+const { slug, title, description } = Astro.props;
+---
+
+<Layout title={title} description={description}>
+  <AppRoot page="project-detail" slug={slug} client:load />
+</Layout>
