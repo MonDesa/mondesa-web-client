@@ -8,7 +8,9 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://mondesa.com.br').href;
+// Pages build to name.html (astro.config.mjs) but are served at /name.
+const path = Astro.url.pathname.replace(/(^|\/)index\.html$/, '$1').replace(/\.html$/, '');
+const canonical = new URL(path, Astro.site ?? 'https://mondesa.com.br').href;
 ---
 
 <!doctype html>
