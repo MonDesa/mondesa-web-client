@@ -5,6 +5,7 @@ import { teamTranslations } from './team';
 import { mondesaTranslations } from './mondesa';
 import { projectsTranslations } from './projects';
 import { contactTranslations } from './contact';
+import { privacyTranslations } from './privacy';
 
 interface Translations {
   [key: string]: {
@@ -19,7 +20,8 @@ export const translations: Translations = {
   ...teamTranslations,
   ...mondesaTranslations,
   ...projectsTranslations,
-  ...contactTranslations
+  ...contactTranslations,
+  ...privacyTranslations
 };
 
 export const getTranslation = (key: string, language: Language, suppressWarning = false): string => {

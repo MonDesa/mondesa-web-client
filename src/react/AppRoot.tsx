@@ -11,6 +11,7 @@ import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import Privacy from './pages/Privacy';
 
 export type PageKey =
   | 'home'
@@ -19,6 +20,7 @@ export type PageKey =
   | 'projects'
   | 'project-detail'
   | 'contact'
+  | 'privacy'
   | 'not-found';
 
 interface AppRootProps {
@@ -40,6 +42,8 @@ const renderPage = (page: PageKey, slug?: string) => {
       return <ProjectDetail slug={slug ?? ''} />;
     case 'contact':
       return <Contact />;
+    case 'privacy':
+      return <Privacy />;
     case 'not-found':
     default:
       return <NotFound />;

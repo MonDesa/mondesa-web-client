@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Consent from '../components/Consent.astro';
 
 interface Props {
   title: string;
@@ -41,5 +42,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://mondesa.com
   </head>
   <body>
     <slot />
+    <Consent />
   </body>
 </html>
